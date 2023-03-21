@@ -18,3 +18,39 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style: none;
+}
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  font-weight: 500;
+}
+
+.card-title {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  padding-left: 40px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-item span {
+  font-weight: 700;
+}
