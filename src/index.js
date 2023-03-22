@@ -19,7 +19,7 @@ refs.inputField.addEventListener(
 function handleInputField() {
   const countryName = refs.inputField.value.trim();
 
-  if (!countryName == '') {
+  if (countryName !== '') {
     fetchCountries(countryName).then(onFetchResolve).catch(onFetchError);
   } else {
     resetInfo();
